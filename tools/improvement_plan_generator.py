@@ -1,5 +1,4 @@
 def improvement_plan_generator(weak_areas: str, employee_name: str = "The employee", level: str = "mid") -> str:s
-    
     try:
         prompt = (
             f"You are an experienced HR coach. Create a structured 90-day Personal Improvement Plan (PIP) "
