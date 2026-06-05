@@ -3,7 +3,6 @@ def career_advice_generator(employee_info: str) -> str:
         parts = [p.strip() for p in employee_info.split("|")]
         if len(parts) < 5:
             return "Invalid input. Please use format: 'name|current_level|target_role|strengths|weak areas'"
-
         name, current_level, target_role, strengths, weak_areas = parts
 
         prompt = (
